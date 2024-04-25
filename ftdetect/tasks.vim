@@ -6,4 +6,4 @@
 " Version:	   0.1
 " URL:         https://github.com/anoopar112/vim-tasks
 "
-autocmd BufNewFile,BufReadPost,BufEnter *.TODO,TODO,*.todo,*.todolist,*.taskpaper,*.tasks,*.task.md,*/vimwiki/* set filetype=tasks.vimwiki
+autocmd BufNewFile,BufReadPost,BufEnter *.TODO,TODO,*.todo,*.todolist,*.taskpaper,*.tasks,*.task.md,*/vimwiki/*,*.md set filetype=tasks.vimwiki.markdown
